@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tree Wood Cottage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="icon" href="home.png">
+  </head>
+  <body>
+    
+
+
+
+<!--...............................................Navbar............................................................-->
+
+
+
+
+<nav class="navbar navbar-dark text-bg-warning p-2 fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold fs-4 text-bg-warning p-2" href="#">Tree Wood Cottage</a>
+    
+  
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar " aria-label="Toggle navigation ">
+     <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark bg-dark p-2" style="--bs-bg-opacity: .5;" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+       
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-warning" id="offcanvasDarkNavbarLabel ">Tree Wood Cottage</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+
+
+
+
+
+
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="membership.html">Membership</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="library.html">Library</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact Us</a>
+              </li>
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark text-bg-warning bg-warning p-2" style="--bs-bg-opacity: .9;">
+                <li><a class="dropdown-item text-dark" href="#">Indoor Delights</a></li>
+                <li><a class="dropdown-item text-dark" href="#">Enhancing View</a></li>
+                <li><a class="dropdown-item text-dark" href="#">Wellness Retreat</a></li>
+                <li><a class="dropdown-item text-dark" href="#">Organin Aesthetic</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-warning" type="submit">Search</button>
+          </form>
+           
+        </div>
+      </div>
+    </div>
+     
+  </nav>
+
+
+
+<br>
+
+
+
+
+
+<!--................................................Checkout...........................................................-->
+
+
+
+
+
+<div class="container my-5">
+
+  <h1>Contact Us</h1>
+<hr>
+
+  <div class="row g-5">
+    <div class="col-md-5 col-lg-4 order-md-last">
+      <h4 class="d-flex justify-content-between align-items-center mb-3">
+        <span class="text-warning">Your cart</span>
+        <span class="badge bg-warning rounded-pill">3</span>
+      </h4>
+      <ul class="list-group mb-3">
+        <li class="list-group-item d-flex justify-content-between lh-sm">
+          <div>
+            <h6 class="my-0">Product name</h6>
+            <small class="text-body-secondary">Brief description</small>
+          </div>
+          <span class="text-body-secondary">$12</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between lh-sm">
+          <div>
+            <h6 class="my-0">Second product</h6>
+            <small class="text-body-secondary">Brief description</small>
+          </div>
+          <span class="text-body-secondary">$8</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between lh-sm">
+          <div>
+            <h6 class="my-0">Third item</h6>
+            <small class="text-body-secondary">Brief description</small>
+          </div>
+          <span class="text-body-secondary">$5</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
+          <div class="text-warning">
+            <h6 class="my-0">Promo code</h6>
+            <small>EXAMPLECODE</small>
+          </div>
+          <span class="text-success">−$5</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Total (USD)</span>
+          <strong>$20</strong>
+        </li>
+      </ul>
+
+      <form class="card p-2">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Promo code">
+          <button type="submit" class="btn btn-warning">Submit</button>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-7 col-lg-8">
+      <h4 class="mb-3">Billing address</h4>
+      <form class="needs-validation" novalidate="">
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <label for="firstName" class="form-label">First name</label>
+            <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+            <div class="invalid-feedback">
+              Valid first name is required.
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <label for="lastName" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+            <div class="invalid-feedback">
+              Valid last name is required.
+            </div>
+          </div>
+
+          <div class="col-12">
+            <label for="username" class="form-label">Username</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text">@</span>
+              <input type="text" class="form-control" id="username" placeholder="Username" required="">
+            <div class="invalid-feedback">
+                Your username is required.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            <div class="invalid-feedback">
+              Please enter a valid email address for shipping updates.
+            </div>
+          </div>
+
+          <div class="col-12">
+            <label for="address" class="form-label">Address</label>
+            <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+            <div class="invalid-feedback">
+              Please enter your shipping address.
+            </div>
+          </div>
+
+          <div class="col-12">
+            <label for="address2" class="form-label">Address 2 <span class="text-body-secondary">(Optional)</span></label>
+            <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+          </div>
+
+          <div class="col-md-5">
+            <label for="country" class="form-label">Country</label>
+            <select class="form-select" id="country" required="">
+            <option value="">Choose...</option>
+            <option>United States</option>
+            <option>United Kindom</option>
+            <option>France</option>
+            <option>UAE</option>
+            <option>Saudia Arabia</option>
+            <option>India</option>
+            <option>Pakistan</option>
+            <option>Itly</option>
+            <option>Japan</option>
+            <option>Germany</option>
+            <option>Sirilanka</option>
+            <option>Dubai</option>
+            <option>Austrila</option>
+            <option>China</option>
+            <option>Iran</option>
+            <option>Canda</option>
+            <option>Belgium</option>
+            <option>Colombia</option>
+            <option>Argentia</option>
+            <option>Barzil</option>
+            <option>Afghanistan</option>
+            <option>Greece</option>
+            <option>Cameroon</option>
+            <option>Chile</option>
+            <option>Bulgaria</option>
+            <option>Azerbaijan</option>
+
+
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid country.
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <label for="state" class="form-label">State</label>
+            <select class="form-select" id="state" required="">
+              <option value="">Choose...</option>
+              <option>California</option>
+              <option>Florida</option>
+              <option>Idaho</option>
+              <option>Hawaii</option>
+              <option>Georgia</option>
+              <option>Colorado</option>
+              <option>Arizona</option>
+            </select>
+            <div class="invalid-feedback">
+              Please provide a valid state.
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <label for="zip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="zip" placeholder="" required="">
+            <div class="invalid-feedback">
+              Zip code required.
+            </div>
+          </div>
+        </div>
+
+        <hr class="my-4">
+
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="same-address">
+          <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
+        </div>
+
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="save-info">
+          <label class="form-check-label" for="save-info">Save this information for next time</label>
+        </div>
+
+        <hr class="my-4">
+
+        <h4 class="mb-3">Payment Method</h4>
+
+        <div class="my-3">
+          <div class="form-check">
+            <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+            <label class="form-check-label" for="credit">Credit card</label>
+          </div>
+          <div class="form-check">
+            <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+            <label class="form-check-label" for="credit">Payoneer</label>
+          </div>
+          <div class="form-check">
+            <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+            <label class="form-check-label" for="credit">Nayapay</label>
+          </div>
+          <div class="form-check">
+            <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+            <label class="form-check-label" for="credit">Wise</label>
+          </div>
+          <div class="form-check">
+            <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+            <label class="form-check-label" for="credit">Sadapay</label>
+          </div>
+          <div class="form-check">
+            <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+            <label class="form-check-label" for="debit">Debit card</label>
+          </div>
+          <div class="form-check">
+            <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+            <label class="form-check-label" for="paypal">PayPal</label>
+          </div>
+        </div>
+
+        <div class="row gy-3">
+          <div class="col-md-6">
+            <label for="cc-name" class="form-label">Name on card</label>
+            <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+            <small class="text-body-secondary">Full name as displayed on card</small>
+            <div class="invalid-feedback">
+              Name on card is required
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <label for="cc-number" class="form-label">Credit card number</label>
+            <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+            <div class="invalid-feedback">
+              Credit card number is required
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <label for="cc-expiration" class="form-label">Expiration</label>
+            <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+            <div class="invalid-feedback">
+              Expiration date required
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <label for="cc-cvv" class="form-label">CVV</label>
+            <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+            <div class="invalid-feedback">
+              Security code required
+            </div>
+          </div>
+        </div>
+
+        <hr class="my-4">
+
+        <button class="w-100 btn btn-warning btn-lg" type="submit">Continue to checkout</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+<br><br><br><br><br><br>
+<hr>
+
+
+<!--...............................................Footer............................................................-->  
+
+
+
+
+
+<div class="container">
+<footer class="py-5">
+  <div class="row">
+    <div class="col-6 col-md-2 mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-2 mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Design</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Service</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Decoration</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Fantasy</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Wilderness</a></li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-2 mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Nature</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Unwind</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Location</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Woods</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Crafting</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md-5 offset-md-1 mb-3">
+      <form>
+        <h5>Subscribe to our newsletter</h5>
+        <p>Monthly digest of what's new and exciting from us.</p>
+        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+          <label for="newsletter1" class="visually-hidden">Email address</label>
+          <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+          <button class="btn btn-warning" type="button">Subscribe</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+    <p>© 2023-24 <b>Tree Wood Cottage</b>, Inc. <a href="#">    Privacy</a> <a href="#"> Trem</a></p>
+    
+    <ul class="list-unstyled d-flex">
+      <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+      <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+      <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+    </ul>
+  </div>
+</footer>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
